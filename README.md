@@ -6,24 +6,23 @@
 <br />
 
 ## Description
-**MContigo - Post Citation and Checker** es un plugin desarrollado para una prueba de admisión para la empresa **MContigo.** Este plugin cuenta con funcionalidades como agregar citas de autores a los posts y usar shortcodes para mostrarlas en cualquier zona de la página web, y verificar que los enlaces de dichas citas de los posts hayan sido correctamente agregadas.
+**MContigo - Post Citation and Checker** is a plugin developed for an admission test for the company **MContigo.** This plugin has functionalities such as adding author citations to posts and using shortcodes to display them in any area of the web page, and verifying that the links to those post citations have been correctly added.
 
 ## Documentation
-1. Descarga el plugin.
-2. En WordPress, ve a la sección Plugins > Add new > Upload plugin y selecciona el plugin que es un archivo .zip
-3. Activa el plugin.
-4. Al añadir un nuevo post, verás un campo personalizado llamado "Citation" donde podrás escribir todas las citas que tenga un autor.
-5. Para mostrar cualquier grupo de citas de un autor en cualquier zona de la página web, debes usar el siguiente shorcode **[mc-citation post_id="id"]**
-donde el **id** variará según el autor del grupo de citas que se desea mostrar.
-6. En la columna izquierda en el panel de Wordpress podrás ver una pestaña llamada "Post Checker" que contiene 3 columnas que mencionan detalles sobre enlaces erróneos dentro de la página web que son:
-    - URL - La dirección del enlace detectado
-      - En esta columna se mostrará la URL que se haya detectado como errónea. 
-    - Estado - El error que se haya detectado en el contenido
-      - En esta columna se mostrará el error que se haya detectado que pueden dividirse en 4:
-        - Enlace inseguro ( href=”http://...” )
-        - Protocolo no especificado ( href=”google.com” o href=”//google.com” )
-        - Enlace malformado ( href=” https://...” o href=”https://google.com/Url” que no funciona )
-        - Enlace que retorna un Status Code incorrecto ( 40X, 50X ). 
-    - Origen - El artículo donde se localizó el problema
-      - En esta columna se mostrará el nombre del post que contiene dicho enlace erróneo.
-7. Disfruta :)
+1. Download the plugin.
+2. In WordPress, go to Plugins > Add new > Upload plugin and select the plugin which is a .zip file.
+3. Activate the plugin.
+4. When you add a new post, you will see a custom field called "Citation" where you can write all the citations that an author has.
+5. To display any Citation from an author in any area of the web page, you must use the following shortcode **[mc-citation post_id="id"]** where the **id** will change according to the post id of the author of the Citation you want to display.
+6. In the left column in the WordPress panel you will see a tab called "Post Checker" which contains 3 columns mentioning details about bad links within the web page which are:
+    - URL - The address of the detected link
+      - The URL detected as a bad link will be displayed in this column. 
+    - Status - The error that has been detected in the content.
+      - This column will show the error that has been detected, which can be divided into 4:
+        - Insecure link ( href=”http://...” )
+        - Protocol not specified ( href=”google.com” o href=”//google.com” )
+        - Malformed link ( href=” https://...” o href=”https://google.com/Url” que no funciona )
+        - Link returning incorrect Status Code ( 40X, 50X ). 
+    - Source - The item where the problem was located.
+      - This column will show the name of the post containing the incorrect link.
+7. Enjoy :)
