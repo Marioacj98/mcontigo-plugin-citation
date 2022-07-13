@@ -23,6 +23,7 @@
 
 include plugin_dir_path ( __FILE__ ) . 'includes/functions/post-citation.php';
 include plugin_dir_path ( __FILE__ ) . 'includes/hooks/shortcode-post-citation.php';
+include plugin_dir_path ( __FILE__ ) . 'includes/functions/post-notification.php';
 
 
 if ( ! defined( 'ABSPATH' ) ) {
