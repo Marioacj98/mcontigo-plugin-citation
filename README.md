@@ -26,3 +26,4 @@ donde el **id** variará según el autor del grupo de citas que se desea mostrar
         - Enlace que retorna un Status Code incorrecto ( 40X, 50X ). 
     - Origen - El artículo donde se localizó el problema
       - En esta columna se mostrará el nombre del post que contiene dicho enlace erróneo.
+7. Disfruta :)
