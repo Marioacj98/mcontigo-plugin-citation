@@ -1,6 +1,6 @@
 <p align="center">
   <a href='https://mariocuetoj.com/'>
-    <img src="https://mariocuetoj.com/wp-content/uploads/2022/01/Logo-Mario-Cueto-Azul.svg" width="300" />
+    <img src="https://mariocuetoj.com/wp-content/uploads/2022/01/Logo-Mario-Cueto-Azul.svg" width="150" />
   </a>
 </p>
 <br />
