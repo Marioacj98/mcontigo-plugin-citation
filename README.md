@@ -22,7 +22,7 @@ donde el **id** variará según el autor del grupo de citas que se desea mostrar
       - En esta columna se mostrará el error que se haya detectado que pueden dividirse en 4:
         - Enlace inseguro ( href=”http://...” )
         - Protocolo no especificado ( href=”google.com” o href=”//google.com” )
-        - Enlace malformado ( href=” https://...” o href=”https://google.com/Url que no funciona” )
+        - Enlace malformado ( href=” https://...” o href=”https://google.com/Url” que no funciona )
         - Enlace que retorna un Status Code incorrecto ( 40X, 50X ). 
     - Origen - El artículo donde se localizó el problema
       - En esta columna se mostrará el nombre del post que contiene dicho enlace erróneo.
