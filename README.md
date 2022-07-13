@@ -1,7 +1,6 @@
 <p align="center">
   <a href='https://mariocuetoj.com/'>
     <img src="https://mariocuetoj.com/wp-content/uploads/2022/01/Logo-Mario-Cueto-Azul.svg" width="100" />
-    Mario Cueto
   </a>
 </p>
 <br />
