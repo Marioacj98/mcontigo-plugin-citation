@@ -1,15 +1,24 @@
 <p align="center">
-  <a href='https://weremote.net'>
-    <img src="https://weremote.net/wp-content/uploads/2021/04/Logo-WR.svg" width="300" />
+  <a href='https://mariocuetoj.com/'>
+    <img src="https://mariocuetoj.com/wp-content/uploads/2022/01/Logo-Mario-Cueto-Azul.svg" width="300" />
   </a>
 </p>
 <br />
 
 ## Descripción
-**WordPress Challenge** es una prueba de admisión para desarrolladoresespecializados en WordPress (HTML, CSS, JavaScript y PHP).
+**MContigo - Post Citation and Checker** es un plugin desarrollado para una prueba de admisión para la empresa **MContigo.** Este plugin cuenta con funcionalidades como agregar citas de autores a los posts y usar shortcodes para mostrarlas en cualquier zona de la página web, y verificar que los enlaces de dichas citas de los posts hayan sido correctamente agregadas.
 
-## Pasos
-1. Crear un **fork** y entregar el enlace del repositorio de tu usuario. Evaluaremos la prueba en tu repositorio personal.
+## Documentación
+1. Descarga el plugin.
+2. En WordPress, ve a la sección Plugins > Add new > Upload plugin y selecciona el plugin que es un archivo .zip
+3. Activa el plugin.
+4. Al añadir un nuevo post, verás un campo personalizado llamado "Citation" donde podrás escribir todas las citas que tenga un autor.
+5. Para mostrar cualquier grupo de citas de un autor en cualquier zona de la página web, debes usar el siguiente shorcode **[mc-citation post_id="id"]**
+donde el **id** variará según el autor del grupo de citas que se desea mostrar.
+6. En la columna izquierda en el panel de Wordpress podrás ver una pestaña llamada "Post Checker" que contiene 3 columnas que mencionan:
+    - Test 1
+    - Test 2
+    - Test 3
 2. Seguir la documentación de los desafíos expuestos en **[este enlace](https://mcontigo.notion.site/Instrucciones-prueba-WordPress-0ab955afeefa428c9b25b74c221f2f46)**.
 3. Usar buenas prácticas de programación.
 4. Usar el framework gráfico nativo de WordPress para la construcción de los elementos.
