@@ -16,7 +16,13 @@
 5. Para mostrar cualquier grupo de citas de un autor en cualquier zona de la página web, debes usar el siguiente shorcode **[mc-citation post_id="id"]**
 donde el **id** variará según el autor del grupo de citas que se desea mostrar.
 6. En la columna izquierda en el panel de Wordpress podrás ver una pestaña llamada "Post Checker" que contiene 3 columnas que mencionan detalles sobre enlaces erróneos dentro de la página web que son:
-  - URL - La dirección del enlace detectado
-    - Test 1
-  - Estado - El error que se haya detectado en el contenido
-  - Origen - El artículo donde se localizó el problema
+    - URL - La dirección del enlace detectado
+      - En esta columna se mostrará la URL que se haya detectado como errónea. 
+    - Estado - El error que se haya detectado en el contenido
+      - En esta columna se mostrará el error que se haya detectado que pueden dividirse en 4:
+        - Enlace inseguro ( href=”http://...” )
+        - Protocolo no especificado ( href=”google.com” o href=”//google.com” )
+        - Enlace malformado ( href=” https://...” o href=”https://google.com/Url que no funciona” )
+        - Enlace que retorna un Status Code incorrecto ( 40X, 50X ). 
+    - Origen - El artículo donde se localizó el problema
+      - En esta columna se mostrará el nombre del post que contiene dicho enlace erróneo.
