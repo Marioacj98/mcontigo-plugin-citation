@@ -28,7 +28,22 @@
 7. Enjoy :)
 
 ## About the code...
-1. Test 
+1. Con esta función, agregamos un nuevo custom field para todos los posts llamado "Citation" que será un editor Wysiwyg, y lo enlazamos a una función que llamaremos "citation_custom_html_code_editor".
 <p align="center">
     <img src="https://mariocuetoj.com/mcontigo/wp-content/uploads/2022/07/add-custom-field-citation.png" width="600" />
+</p>
+
+2. Con esta función, obtenemos el valor de lo que el usuario haya escrito en el editor Wysiwyg y lo mostramos nuevamente cada vez que se recargue el editor.
+<p align="center">
+    <img src="https://mariocuetoj.com/mcontigo/wp-content/uploads/2022/07/get-custom-field-citation.png" width="600" />
+</p>
+
+3. Con esta función, guardamos el valor que hayamos obtenido con la función anterior GET.
+<p align="center">
+    <img src="https://mariocuetoj.com/mcontigo/wp-content/uploads/2022/07/save-custom-field-citation.png" width="600" />
+</p>
+
+4. Con esta función, realizamos un shortcode para que podamos mostrar el valor del campo "Citation" de algún autor en particular en cualquier parte de la página con la ayuda del id del post correspondiente.
+<p align="center">
+    <img src="https://mariocuetoj.com/mcontigo/wp-content/uploads/2022/07/shortcode-custom-field-citation.png" width="600" />
 </p>
