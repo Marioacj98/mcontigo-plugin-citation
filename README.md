@@ -30,5 +30,5 @@
 ## About the code...
 1. Test 
 <p align="center">
-    <img src="https://mariocuetoj.com/mcontigo/wp-content/uploads/2022/07/add-custom-field-citation.png" width="500" />
+    <img src="https://mariocuetoj.com/mcontigo/wp-content/uploads/2022/07/add-custom-field-citation.png" width="600" />
 </p>
