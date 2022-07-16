@@ -17,13 +17,13 @@ function add_custom_box_citation () {
 add_action( 'add_meta_boxes', 'add_custom_box_citation' );
 
 //Get values of Citation field
-function citation_custom_html_code_editor ( $post ){
+function citation_custom_html_code_editor( $post ){
     $diwp_custom_editor = get_post_meta( $post->ID, '_diwp_custom_editor', true ); 
     wp_editor( $diwp_custom_editor,  'diwp_custom_editor', array() );
 }
 
 //Saving values of Citation field
-function diwp_save_custom_wp_editor_content ( $post_id ){
+function diwp_save_custom_wp_editor_content( $post_id ){
     if( isset ( $_POST['diwp_custom_editor'] ) ) {
         update_post_meta ( $post_id, '_diwp_custom_editor', $_POST['diwp_custom_editor'] );
     }

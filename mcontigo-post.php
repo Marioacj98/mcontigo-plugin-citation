@@ -10,7 +10,7 @@
  * @package Plugin_Name
  *
  * @wordpress-plugin
- * Plugin Name:     MContigo - Post Citation and Checker
+ * Plugin Name:     MContigo - Post Citation and URL Checker
  * Description:     Add citations for each of your authors, or display them through a shortcode using [mc-citation post_id="id"]. Also, test the link structure of each of your posts and see a report on how to fix them.
  * Version:         1.0.1
  * Author:          Mario Cueto J.

@@ -6,7 +6,7 @@
 <br />
 
 ## Description
-**MContigo - Post Citation and Checker** is a plugin developed for an admission test for the company **MContigo.** This plugin has functionalities such as adding author citations to posts and using shortcodes to display them in any area of the web page, and verifying that the links to those post citations have been correctly added.
+**MContigo - Post Citation and URL Checker** is a plugin developed for an admission test for the company **MContigo.** This plugin has functionalities such as adding author citations to posts and using shortcodes to display them in any area of the web page, and verifying that the links to those post citations have been correctly added.
 
 ## Documentation
 1. Download the plugin.
